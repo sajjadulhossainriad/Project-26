@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.fixedwidth {
+    width: 1200px;
+    margin: auto;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header Css*/
+.header-top {
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+.header-logo {
+    width: 50%;
+}
+.header-logo h1 {
+    margin-top: 10px;
+}
+.header-logo a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+
+    font-size: 30px;
+}
+.header-menu {
+    width: 50%;
+}
+.header-menu ul {
+    text-align: right;
+}
+.header-menu ul li {
+    display: inline-block;
+}
+.header-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8c858c;
+    padding: 15px 18px;
+    font-size: 20px;
+}
+/* Banner section*/
+.banner {
+    background: url(https://i.ibb.co/MP96G1B/received-1434016673599488.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 250px 0;
+    text-align: center;
+    position: relative;
+}
+.bannertext h2 {
+    position: relative;
+    display: inline-block;
+    top: -164px;
+    color: #fff;
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.bannertext h1 {
+    position: relative;
+    top: -94px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner-btn {
+    display: inline-block;
+    color: #fff;
+    padding: 18px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+    background-color: #4272d7;
+    border: none;
+    position: relative;
+    top: -55px;
+}
+/*Content bottom*/
+.content {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.content-video {
+    width: 43%;
+}
+.content-video video {
+    height: 300px;
+    width: 470px;
+}
+.content-text {
+    margin-bottom: 20px;
+    width: 50%;
+}
+.content-text h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.content-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+/*contact Sectio0n*/
+.contact-section {
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.contact-section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.contact-left {
+    width: 50%;
+}
+.contact-left{
+    font-size: 20px;
+}
+.contact-right {
+    width: 50%;
+}
+.contact-right .deafult-type {
+    width: 400px;
+    margin-bottom: 18px;
+    color: #84909b;
+    border: 1px solid #a5a5a5;
+    border-radius: 3px;
+    padding: 2px 2px;
+}
+.deafult-type:focus{
+    border: 1px solid #a5a5a5;
+    border-radius: 3px;
+}
+.contact-right .submit-design{
+    background-color: #efefef;
+    border: 2px solid #a5a5a5;
+    padding: 2px 5px;
+}
+/*footer section*/
+.footer-bottom{
+    background-color: #171a21;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer-bottom p{
+    color: #fff;
+    font-size: 19px;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: #fff;
+}
